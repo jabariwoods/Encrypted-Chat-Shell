@@ -1,5 +1,6 @@
 # Encrypted-Chat-Shell
 Overview
+
 These two scripts implement a simple, encrypted chat system using Bash, OpenSSL, and netcat (nc):
 
 secure_sender.sh: Sends encrypted messages.
@@ -9,6 +10,7 @@ secure_receiver.sh: Listens for and decrypts incoming messages.
 Both scripts use AES-256-CBC encryption with a shared password (chatpassword) and communicate over TCP port 12345.
 
 Usage Instructions
+
 1. Prerequisites
 
 Both scripts require openssl and nc (netcat) to be installed.
